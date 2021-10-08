@@ -1,0 +1,332 @@
+{
+  "MainWindow": {
+    "CommunicationBase": {
+      "ParametersDialog": {
+        "GrSimCommunication": {
+          "IP": {
+            "Value": "127.0.0.1"
+          },
+          "Port": {
+            "Value": "20011"
+          },
+          "Replacement": {
+            "Enable": {
+              "Conditional": {
+                "true": {
+                  "Robot Angle": {
+                    "Value": "0.00"
+                  }
+                }
+              },
+              "Value": "false"
+            }
+          }
+        }
+      },
+      "comboBox": "GrSimCommunication"
+    },
+    "DecisionBase": {
+      "ParametersDialog": {
+        "CoachRL": {
+        }
+      },
+      "comboBox": "CoachRL"
+    },
+    "RefereeBase": {
+      "ParametersDialog": {
+        "RefereeWorld": {
+          "INet": {
+            "Value": "lo"
+          },
+          "Referee": {
+            "IP": {
+              "Value": "224.5.23.2"
+            },
+            "Port": {
+              "Value": "10003"
+            }
+          },
+          "Replacer": {
+            "IP": {
+              "Value": "224.5.23.2"
+            },
+            "Port": {
+              "Value": "10004"
+            }
+          }
+        }
+      },
+      "comboBox": "RefereeWorld"
+    },
+    "Robot00": {
+      "BehaviorBase 00": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          },
+          "Reinforcement": {
+            "Attacker Network Path": {
+              "Value": "/home/vss-unification/models/atk.pt"
+            },
+            "GoalKeeper Network Path": {
+              "Value": "/home/vss-unification/models/gk.pt"
+            },
+            "Max Robot Linear Speed": {
+              "Value": "1.200000047683716"
+            },
+            "Robot Wheel Radius": {
+              "Value": "0.019999999552965"
+            }
+          }
+        },
+        "comboBox": "Reinforcement"
+      }
+    },
+    "Robot01": {
+      "BehaviorBase 01": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          },
+          "Reinforcement": {
+            "Attacker Network Path": {
+              "Value": "/home/vss-unification/models/atk.pt"
+            },
+            "GoalKeeper Network Path": {
+              "Value": "/home/vss-unification/models/gk.pt"
+            },
+            "Max Robot Linear Speed": {
+              "Value": "1.200000047683716"
+            },
+            "Robot Wheel Radius": {
+              "Value": "0.019999999552965"
+            }
+          }
+        },
+        "comboBox": "Reinforcement"
+      }
+    },
+    "Robot02": {
+      "BehaviorBase 02": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          },
+          "Reinforcement": {
+            "Attacker Network Path": {
+              "Value": "/home/vss-unification/models/atk.pt"
+            },
+            "GoalKeeper Network Path": {
+              "Value": "/home/vss-unification/models/gk.pt"
+            },
+            "Max Robot Linear Speed": {
+              "Value": "1.200000047683716"
+            },
+            "Robot Wheel Radius": {
+              "Value": "0.019999999552965"
+            }
+          }
+        },
+        "comboBox": "Reinforcement"
+      }
+    },
+    "Robot03": {
+      "BehaviorBase 03": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot04": {
+      "BehaviorBase 04": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot05": {
+      "BehaviorBase 05": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot06": {
+      "BehaviorBase 06": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot07": {
+      "BehaviorBase 07": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot08": {
+      "BehaviorBase 08": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot09": {
+      "BehaviorBase 09": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "Robot10": {
+      "BehaviorBase 10": {
+        "ParametersDialog": {
+          "Attacker": {
+            "offsetCarryX": {
+              "Value": "10"
+            },
+            "offsetCarryY": {
+              "Value": "20"
+            },
+            "spinDistance": {
+              "Value": "8"
+            }
+          }
+        },
+        "comboBox": "Attacker"
+      }
+    },
+    "VisionBase": {
+      "ParametersDialog": {
+        "FIRASimClient": {
+          "AttackSide": {
+            "Value": "Right"
+          },
+          "Draw": {
+            "CIninho": {
+              "Value": "true"
+            },
+            "Field Markings": {
+              "Value": "false"
+            }
+          },
+          "INet": {
+            "Value": "lo"
+          },
+          "IP": {
+            "Value": "224.0.0.1"
+          },
+          "Port": {
+            "Value": "10002"
+          },
+          "TeamColor": {
+            "Value": "Blue"
+          }
+        }
+      },
+      "comboBox": "FIRASimClient"
+    }
+  }
+}

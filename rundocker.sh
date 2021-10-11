@@ -1,5 +1,5 @@
 WORK_DIR=`pwd`
-CONTAINER_WORK_DIR="/home/vss-unification"
+CONTAINER_WORK_DIR="/home"
 
 CONTAINER_NAME="rl-unification"
 DOCKER_IMAGE="rl-unification"
@@ -12,7 +12,6 @@ docker run  -it \
             --volume="/dev:/dev" \
             --privileged \
             --net=host \
-            --volume="${WORK_DIR}/config:${CONTAINER_WORK_DIR}/config" \
-            --volume="${WORK_DIR}/models:${CONTAINER_WORK_DIR}/models" \
+            --volume="${WORK_DIR}/get.py:${CONTAINER_WORK_DIR}/get.py" \
             -v $HOME/.Xauthority:/root/.Xauthority \
             $DOCKER_IMAGE

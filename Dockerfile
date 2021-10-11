@@ -31,4 +31,5 @@ RUN git clone https://github.com/robocin/soccer-common.git && \
     cd soccer-common && \
     git submodule update --init --recursive && \
     cd scripts && \
-    ./setup.py --essentials -install libtorch
+    ./setup.py --essentials && \
+    ./setup.py --install libtorch

@@ -7,7 +7,6 @@ DOCKER_IMAGE="rl-unification"
 # Executando o docker
 docker run  -it \
             --rm \
-            --user=$(id -u) \
             --name=$CONTAINER_NAME \
             --volume="/dev:/dev" \
             --privileged \

@@ -12,5 +12,6 @@ docker run  -it \
             --privileged \
             --net=host \
             --volume="${WORK_DIR}/get.py:${CONTAINER_WORK_DIR}/get.py" \
+            --volume="${WORK_DIR}/get_5v5.py:${CONTAINER_WORK_DIR}/get_5v5.py" \
             -v $HOME/.Xauthority:/root/.Xauthority \
             $DOCKER_IMAGE

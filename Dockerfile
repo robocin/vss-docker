@@ -27,9 +27,10 @@ RUN apt-get update           \
 # ssl-coach
 WORKDIR /home
 
-RUN git clone https://github.com/robocin/soccer-common.git && \
+RUN git clone https://github.com/robocin/soccer-common.git -b 'v3.3.0' && \
     cd soccer-common && \
     git submodule update --init --recursive && \
     cd scripts && \
-    ./setup.py --essentials && \
-    ./setup.py --install libtorch
+    ./setup.py --essentials
+
+RUN ./soccer-common/scripts/setup.py --install libtorch

@@ -1,0 +1,1 @@
+./vss-unification/bin/vss-unification $1 $2 $3 |& tee -a logs/$(date '+%F-%H-%M-%S').log
